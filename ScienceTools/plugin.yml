@@ -1,0 +1,11 @@
+main: phil.plugin.ScienceTools
+name: Science-Tools
+version: 1.01
+author: Philip
+description: Science Tools plugin
+commands:
+   temperature:
+      description: Temperature of the player's location
+      usage: /temperature
+      permission: ScienceTools.temperature
+      permission-message: You don't have permission to use this command (check ScienceTools.temperature).
